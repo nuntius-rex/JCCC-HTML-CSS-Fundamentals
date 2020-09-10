@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rainbow</title>
+  </head>
+  <body>
+
+    <input type="button" id="RainbowBTN"
+    value="Click for Rainbow">
+
+
+    <script type="text/javascript">
+	   
+	  /*An example of JavaScript in action: */
+
+      var RainbowBTN=document.getElementById("RainbowBTN");
+      var rainbow=["red","orange", "green", "yellow",
+      "blue", "indigo", "violet","purple", "aqua",
+      "chocolate","Coral","wheat"];
+
+      function changeBG(){
+        var randomNum=Math.floor(rainbow.length*Math.random());
+        document.body.style.background=rainbow[randomNum];
+      }
+
+      RainbowBTN.addEventListener("click", changeBG);
+
+    </script>
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,42 @@
+/*
+Gray: #6d6e73
+Red: #da142f
+Dark red: #7f1515
+Dark olive green: #6D373D
+Golden Brown: #dcc8ad
+Bright Gold #fcd057
+*/
+
+body{
+    background-color: #6d6e73;
+}
+
+#wrapper{
+  background-color: #fff;
+}
+
+#header{
+  background-image:url(../img/city_background1.jpg);
+  background-size: 100% 250px;
+  height:250px;
+}
+
+#col1{
+  border: solid 5px #7f1515;
+
+}
+#col2{
+  /*min-width:400px !important;*/
+}
+
+#col2 img{
+  width:100%;
+}
+
+#col3{
+
+}
+
+#footer{
+
+}

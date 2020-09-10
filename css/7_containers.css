@@ -1,0 +1,59 @@
+
+#wrapper{
+  max-width:90%;
+  margin: 0 auto;
+}
+
+section{
+  border:solid 1px;
+  max-width:100%;
+  display:flex;
+}
+
+.column{
+
+  border:solid 1px;
+  margin:10px;
+  flex-grow:1;
+  flex-shrink:1;
+  flex-basis:0;
+  padding: 5px;
+}
+
+.boxShadow{
+  box-shadow: 2px 2px;
+}
+
+.roundedCorners{
+  border-radius: 50px;
+}
+
+
+#container1{
+  box-shadow: 5px 5px;
+}
+
+#container2{
+  box-shadow: 5px 5px 5px gray;
+  background-color: #000;
+  color:#fff;
+}
+
+#container3{
+  color:#7111f1;
+  text-shadow: 1px #464646;
+  background:linear-gradient(to right, black, white);
+}
+
+#container4{
+  color:#fff;
+  background-image:url("../img/dotted-metal.jpg");
+}
+
+#container5{
+  background:linear-gradient(to bottom right, red, white, blue);
+}
+
+#container6{
+  background: radial-gradient(red, yellow);
+}
